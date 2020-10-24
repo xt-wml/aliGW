@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./index.css";
+import styles from "./index.less";
 
 
 export default function Top() {
@@ -19,7 +19,7 @@ export default function Top() {
         <i className={styles.text_guan}>社招官网</i>
 
         <ul  className={styles.menu}>
-          <li className={styles.current} value="1">
+        <li className={styles.current} value="1">
             <a href="https://job.alibaba.com/zhaopin/index.htm">
               首 &nbsp;&nbsp;页
             </a>
